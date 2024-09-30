@@ -40,10 +40,8 @@ import ProductUnavailable from './ProductUnavailable.vue';
 import ProductLoading from './ProductLoading.vue';
 
 const availableProduct = ref(false);
-// const loading = ref(true);
-// const data = ref(false);
+
 const count = ref(1);
-// const { error, fetchData } = useFetch();
 const { data, error, loading, fetchData } = useFetch();
 
 const bgColor = ref('bg-color-men');
