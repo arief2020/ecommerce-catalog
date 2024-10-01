@@ -1,5 +1,5 @@
 <template>
-  <div class="skeleton-container">
+  <div class="skeleton-card">
     <div class="skeleton-image shimmer"></div>
     <div class="skeleton-details">
       <div class="skeleton-title shimmer"></div>
@@ -15,7 +15,7 @@
 </script>
 
 <style scoped>
-.skeleton-container {
+.skeleton-card {
   display: flex;
   background-color: white;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);

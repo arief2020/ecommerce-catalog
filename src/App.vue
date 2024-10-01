@@ -1,12 +1,13 @@
 <template>
-     <ProductDetail2 />
+  <ProductDetail />
 </template>
 
 <script>
-import ProductDetail2 from './views/ProductDetail2.vue';
+import ProductDetail from './views/ProductDetail.vue';
+
 export default {
   components: {
-    ProductDetail2
+    ProductDetail
   }
 }
 </script>
